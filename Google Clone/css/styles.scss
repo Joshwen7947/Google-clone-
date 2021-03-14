@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+}
+nav {
+	position: absolute;
+	top: -175px;
+	right: 100px;
+	a {
+		padding: 10px;
+		color: black;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	#cloud {
+		// transform: scale(0.1);
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		position: absolute;
+		top: -210px;
+		right: -55px;
+	}
+	#cloud:hover {
+		cursor: pointer;
+	}
+}
+
+img {
+	margin: auto;
+	display: block;
+	margin-top: 200px;
+	transform: scale(1.1);
+}
+.search {
+	width: 70%;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	input {
+		width: 80%;
+		height: 50px;
+		border-radius: 25px;
+		border: 1px solid gray;
+		padding-left: 50px;
+		outline: none;
+		font-size: 1.5rem;
+	}
+	.buttons {
+		padding-top: 25px;
+		button {
+			height: 40px;
+			width: 150px;
+			margin: 20px;
+			border: none;
+			background-color: rgb(237, 237, 237);
+			font-size: 1rem;
+			border-radius: 5px;
+		}
+		button:hover {
+			opacity: 0.7;
+			border: 1px solid gray;
+			cursor: pointer;
+		}
+	}
+	p {
+		a {
+			padding: 5px;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+footer {
+	background-color: rgb(216, 216, 216);
+	height: 100px;
+	position: relative;
+	top: 585px;
+	#vietnam {
+		padding: 15px;
+		color: rgb(89, 89, 89);
+	}
+	#vietnam:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.footer-menu1 {
+		a {
+			padding: 15px;
+			position: relative;
+			top: 15px;
+			color: rgb(89, 89, 89);
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+	.footer-menu2 {
+		a {
+			float: right;
+			padding: 15px;
+			position: relative;
+			top: -20px;
+			color: rgb(89, 89, 89);
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+}
